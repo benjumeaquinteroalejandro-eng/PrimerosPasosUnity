@@ -4,34 +4,26 @@ using UnityEngine;
 
 public class PlayerrMovement : MonoBehaviour
 {
+    public float height = 1.84f;
+    public int age = 30;
+    public string nombree = "Alejo";
+    public bool cantheyvote = true;
 
-    //-
-    //+
-    //*
-    // /
+    public GameObject gameObject;
+    public Rigidbody2D rigidbody2D;
+    public Collider2D collider2D;
+    public SpriteRenderer spriteRenderer;
+    public Transform transform2D;
 
-    // Variables
-    [SerializeField] private int _edad = 17;
-    [SerializeField] private float _velocidad = 15.5f;
-    public string nombre = "Alejo";
-    public bool isJumping = false;
-
-    public float fuerza = 500f;
-    public float fuerza2 = 100f;
-
-    [SerializeField] private Rigidbody2D _rigidbody2D;
-
-
-    // Start is called before the first frame update
-    void Start()
+    private void Start()
     {
-        _rigidbody2D.AddForce(Vector2.right * fuerza);
-        _rigidbody2D.AddForce(Vector2.up * fuerza2);
-
+        Debug.Log("Hola: " + nombree + " tu edad es: " + age + " tu altura es: " + height);
+        rigidbody2D.simulated = false;
+        spriteRenderer.color = Color.red;
+        transform2D.position = new Vector3(10f, 0f, 0f);
     }
 
-    // Update is called once per frame
-    void Update()
+    private void Update()
     {
 
     }
