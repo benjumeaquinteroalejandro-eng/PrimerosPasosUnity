@@ -7,7 +7,7 @@ public class GroundCheck : MonoBehaviour
     public bool isGround;
     [SerializeField] private DinoRunner _dinoRunner;
     // Start is called before the first frame update
-    private void OnTriggerEnter2D(Collider2D collision)
+    private void OnTriggerStay2D(Collider2D collision)
     {
         isGround = true;
         Debug.Log("WHO TOUCHED SASHA???");

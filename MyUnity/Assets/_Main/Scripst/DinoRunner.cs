@@ -11,28 +11,38 @@ public class DinoRunner : MonoBehaviour
     [SerializeField] private Rigidbody2D _rigidbody2D1;
 
     [SerializeField] private GroundCheck _groundCheck1;
-    
+
+    private float _directionX = 0f;
+
     private void Awake()
     {
         _rigidbody2D1 = GetComponent<Rigidbody2D>();
     }
-
-    private void Start()
-    {
-
-    }
-
     private void FixedUpdate()
     {
         if (_groundCheck1.isGround)
         {
+            _directionX = 0f;
+
             if (Input.GetKey(KeyCode.W))
             {
                 _rigidbody2D1.AddForce(Vector2.up * _jumpforce, ForceMode2D.Force);
 
                 Debug.Log("LOOK AT ME!!!");
             }
-            _rigidbody2D1.velocity = Vector2.right * _movementSpeed;
+            if (Input.GetKey(KeyCode.D))
+            {
+                _directionX = 1f;
+
+                Debug.Log("INCOMIIIIIIING!!!");
+            }
+            if (Input.GetKey(KeyCode.A))
+            {
+                _directionX = -1f;
+
+                Debug.Log("Let's go back");
+            }
+            _rigidbody2D1.velocity = new Vector2(_directionX * _movementSpeed, _rigidbody2D1.velocity.y);
         }
     }
 }
