@@ -24,7 +24,7 @@ public class DinoRunner : MonoBehaviour
         {
             _directionX = 0f;
 
-            if (Input.GetKey(KeyCode.W))
+            if (Input.GetKey(KeyCode.Space))
             {
                 _rigidbody2D1.AddForce(Vector2.up * _jumpforce, ForceMode2D.Force);
 
@@ -36,7 +36,19 @@ public class DinoRunner : MonoBehaviour
 
                 Debug.Log("INCOMIIIIIIING!!!");
             }
+            if (Input.GetKey(KeyCode.RightArrow))
+            {
+                _directionX = 1f;
+
+                Debug.Log("INCOMIIIIIIING!!!");
+            }
             if (Input.GetKey(KeyCode.A))
+            {
+                _directionX = -1f;
+
+                Debug.Log("Let's go back");
+            }
+            if (Input.GetKey(KeyCode.LeftArrow))
             {
                 _directionX = -1f;
 

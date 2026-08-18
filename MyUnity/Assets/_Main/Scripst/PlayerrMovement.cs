@@ -20,17 +20,16 @@ public class PlayerrMovement : MonoBehaviour
 
     }
 
-    private void Update()
+    private void FixedUpdate()
     {
-        if (Input.GetKeyDown(KeyCode.Space))
+        if (Input.GetKey(KeyCode.Space))
         {
-            _rigidbody2D.velocity = new Vector2(_rigidbody2D.velocity.x, 0f);
 
             _rigidbody2D.AddForce(Vector2.up * _force, ForceMode2D.Impulse);
 
         }
 
-        _rigidbody2D.velocity = new Vector2(_velocity, _rigidbody2D.velocity.y);
+        _rigidbody2D.velocity = new Vector2(1 * _velocity, _rigidbody2D.velocity.y);
     }
 
     private void OnCollisionEnter2D(Collision2D collision)
