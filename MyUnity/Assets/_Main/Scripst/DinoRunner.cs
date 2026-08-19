@@ -12,49 +12,40 @@ public class DinoRunner : MonoBehaviour
 
     [SerializeField] private GroundCheck _groundCheck1;
 
-    private float _directionX = 0f;
+    [SerializeField] private Animator _animator;
+
+    private bool _isDead = false;
 
     private void Awake()
     {
         _rigidbody2D1 = GetComponent<Rigidbody2D>();
+
+        if (_animator == null)
+            _animator = GetComponent<Animator>();
     }
     private void FixedUpdate()
     {
+
+        _animator.SetBool("InGround", _groundCheck1.isGround);
+
         if (_groundCheck1.isGround)
         {
-            _directionX = 0f;
-
             if (Input.GetKey(KeyCode.Space))
             {
                 _rigidbody2D1.AddForce(Vector2.up * _jumpforce, ForceMode2D.Force);
 
                 Debug.Log("LOOK AT ME!!!");
             }
-            if (Input.GetKey(KeyCode.D))
-            {
-                _directionX = 1f;
-
-                Debug.Log("INCOMIIIIIIING!!!");
-            }
-            if (Input.GetKey(KeyCode.RightArrow))
-            {
-                _directionX = 1f;
-
-                Debug.Log("INCOMIIIIIIING!!!");
-            }
-            if (Input.GetKey(KeyCode.A))
-            {
-                _directionX = -1f;
-
-                Debug.Log("Let's go back");
-            }
-            if (Input.GetKey(KeyCode.LeftArrow))
-            {
-                _directionX = -1f;
-
-                Debug.Log("Let's go back");
-            }
-            _rigidbody2D1.velocity = new Vector2(_directionX * _movementSpeed, _rigidbody2D1.velocity.y);
         }
+        _rigidbody2D1.velocity = new Vector2(1 * _movementSpeed, _rigidbody2D1.velocity.y);
+    }
+
+    public void Morir()
+    {
+        if (_isDead) return; 
+        _isDead = true;
+        _rigidbody2D1.velocity = Vector2.zero;
+
+        _animator.SetTrigger("Death");
     }
 }

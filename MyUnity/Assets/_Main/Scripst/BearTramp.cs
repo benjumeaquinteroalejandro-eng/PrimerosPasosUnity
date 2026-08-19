@@ -6,7 +6,13 @@ public class BearTramp : MonoBehaviour
     {
         if (collision.gameObject.CompareTag("Player"))
         {
-            Destroy(collision.gameObject);
+            DinoRunner jugador = collision.gameObject.GetComponent<DinoRunner>();
+            if (jugador != null)
+            {
+                jugador.Morir();
+
+                Destroy(jugador);
+            }
         }
     }
 }
