@@ -10,4 +10,8 @@ public class PlayerStats : MonoBehaviour
     {
         _puntosVida = _puntosVida - daño;
     }
+    public void OverHeal(int vida)
+    {
+        _puntosVida = _puntosVida + vida;
+    }
 }
