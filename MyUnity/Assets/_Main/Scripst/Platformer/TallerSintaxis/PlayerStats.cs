@@ -7,5 +7,10 @@ public class PlayerStats : MonoBehaviour
     {
         _puntosVida = _puntosVida - daño;
     }
-  
+
+    public void SumarVida(int añadir)
+    {
+        _puntosVida = _puntosVida + añadir;
+    }
+
 }

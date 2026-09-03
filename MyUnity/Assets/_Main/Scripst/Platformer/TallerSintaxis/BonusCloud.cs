@@ -1,6 +1,7 @@
+
 using UnityEngine;
 
-public class ObstaculoMortal : MonoBehaviour
+public class BonusCloud : MonoBehaviour
 {
     [SerializeField] private PlayerStats _playerStats;
 
@@ -8,7 +9,10 @@ public class ObstaculoMortal : MonoBehaviour
     {
         if (colision.gameObject.CompareTag("Player"))
         {
-            _playerStats.RestarVida(10);
+            _playerStats.SumarVida(10);
+
+            Destroy(this.gameObject);
         }
     }
+
 }
