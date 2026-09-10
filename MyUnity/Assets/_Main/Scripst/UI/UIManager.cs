@@ -7,16 +7,17 @@ public class UIManager : MonoBehaviour
     
     [SerializeField] private Image _barra;
 
-    // Start is called before the first frame update
-    void Start()
+    public void SumarFillAmount(float amount)
     {
-        _barra.color = Color.red;
-        _barra.fillAmount = 1f;
+        _barra.fillAmount += amount;
+    }
+    public void RestarFillAmount(float amount)
+    { 
+        _barra.fillAmount = _barra.fillAmount - amount;
     }
 
-    // Update is called once per frame
-    void Update()
+    public void ColorBarra(Color color)
     {
-        
+        _barra.color = color;
     }
 }

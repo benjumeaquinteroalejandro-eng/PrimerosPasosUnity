@@ -264,7 +264,7 @@ GameObject:
   - component: {fileID: 14617239}
   - component: {fileID: 14617241}
   m_Layer: 0
-  m_Name: Cactus C (25)
+  m_Name: invi (25)
   m_TagString: Murder
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -278,11 +278,11 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 14617236}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -243.78, y: 3.1, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 0.5774868, y: 0.5062373, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 1433695603}
+  m_Father: {fileID: 618214488}
   m_RootOrder: -1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!61 &14617239
@@ -392,10 +392,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 14617236}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 37cb536e3ba192f47a520b78e84c34dc, type: 3}
+  m_Script: {fileID: 11500000, guid: a71f5a6fab7c2ff4a857b2993c4993cd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _playerStats: {fileID: 666293308}
+  _uiManager: {fileID: 1464824632}
 --- !u!1 &28550206
 GameObject:
   m_ObjectHideFlags: 0
@@ -541,6 +541,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _playerStats: {fileID: 666293308}
+  _uiManager: {fileID: 1464824632}
 --- !u!1 &32315695
 GameObject:
   m_ObjectHideFlags: 0
@@ -1132,6 +1133,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _playerStats: {fileID: 666293308}
+  _uiManager: {fileID: 1464824632}
 --- !u!1 &42954728
 GameObject:
   m_ObjectHideFlags: 0
@@ -1567,6 +1569,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _playerStats: {fileID: 666293308}
+  _uiManager: {fileID: 1464824632}
 --- !u!1 &81634786
 GameObject:
   m_ObjectHideFlags: 0
@@ -1712,6 +1715,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _playerStats: {fileID: 666293308}
+  _uiManager: {fileID: 1464824632}
 --- !u!1 &93191781
 GameObject:
   m_ObjectHideFlags: 0
@@ -1988,6 +1992,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _playerStats: {fileID: 666293308}
+  _uiManager: {fileID: 1464824632}
 --- !u!1 &101884057
 GameObject:
   m_ObjectHideFlags: 0
@@ -2423,6 +2428,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _playerStats: {fileID: 666293308}
+  _uiManager: {fileID: 1464824632}
 --- !u!1 &119125025
 GameObject:
   m_ObjectHideFlags: 0
@@ -3313,6 +3319,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _playerStats: {fileID: 666293308}
+  _uiManager: {fileID: 1464824632}
 --- !u!1 &174117712
 GameObject:
   m_ObjectHideFlags: 0
@@ -3458,6 +3465,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _playerStats: {fileID: 666293308}
+  _uiManager: {fileID: 1464824632}
 --- !u!1 &176724236
 GameObject:
   m_ObjectHideFlags: 0
@@ -3873,6 +3881,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _playerStats: {fileID: 666293308}
+  _uiManager: {fileID: 1464824632}
 --- !u!1 &189711554
 GameObject:
   m_ObjectHideFlags: 0
@@ -4018,6 +4027,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _playerStats: {fileID: 666293308}
+  _uiManager: {fileID: 1464824632}
 --- !u!1 &194110022
 GameObject:
   m_ObjectHideFlags: 0
@@ -4163,6 +4173,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _playerStats: {fileID: 666293308}
+  _uiManager: {fileID: 1464824632}
 --- !u!1 &195587154
 GameObject:
   m_ObjectHideFlags: 0
@@ -4439,6 +4450,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _playerStats: {fileID: 666293308}
+  _uiManager: {fileID: 1464824632}
 --- !u!1 &250865301
 GameObject:
   m_ObjectHideFlags: 0
@@ -4715,6 +4727,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _playerStats: {fileID: 666293308}
+  _uiManager: {fileID: 1464824632}
 --- !u!1 &261964556
 GameObject:
   m_ObjectHideFlags: 0
@@ -4860,6 +4873,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _playerStats: {fileID: 666293308}
+  _uiManager: {fileID: 1464824632}
 --- !u!1 &262100683
 GameObject:
   m_ObjectHideFlags: 0
@@ -5791,6 +5805,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _playerStats: {fileID: 666293308}
+  _uiManager: {fileID: 1464824632}
 --- !u!1 &308915884
 GameObject:
   m_ObjectHideFlags: 0
@@ -6119,7 +6134,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 11
+  m_RootOrder: 12
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &321472214
 GameObject:
@@ -6659,6 +6674,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _playerStats: {fileID: 666293308}
+  _uiManager: {fileID: 1464824632}
 --- !u!1 &363891376
 GameObject:
   m_ObjectHideFlags: 0
@@ -7406,6 +7422,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _playerStats: {fileID: 666293308}
+  _uiManager: {fileID: 1464824632}
 --- !u!1 &412346301
 GameObject:
   m_ObjectHideFlags: 0
@@ -7551,6 +7568,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _playerStats: {fileID: 666293308}
+  _uiManager: {fileID: 1464824632}
 --- !u!1 &414019266
 GameObject:
   m_ObjectHideFlags: 0
@@ -8422,6 +8440,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _playerStats: {fileID: 666293308}
+  _uiManager: {fileID: 1464824632}
 --- !u!61 &515346998
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -8823,6 +8842,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _playerStats: {fileID: 666293308}
+  _uiManager: {fileID: 1464824632}
 --- !u!1 &544603756
 GameObject:
   m_ObjectHideFlags: 0
@@ -9206,6 +9226,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _playerStats: {fileID: 666293308}
+  _uiManager: {fileID: 1464824632}
 --- !u!1 &581031561
 GameObject:
   m_ObjectHideFlags: 0
@@ -9351,6 +9372,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _playerStats: {fileID: 666293308}
+  _uiManager: {fileID: 1464824632}
 --- !u!1 &590050045
 GameObject:
   m_ObjectHideFlags: 0
@@ -9496,6 +9518,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _playerStats: {fileID: 666293308}
+  _uiManager: {fileID: 1464824632}
 --- !u!1 &590402339
 GameObject:
   m_ObjectHideFlags: 0
@@ -9641,6 +9664,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _playerStats: {fileID: 666293308}
+  _uiManager: {fileID: 1464824632}
 --- !u!1 &602466314
 GameObject:
   m_ObjectHideFlags: 0
@@ -9786,6 +9810,39 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _playerStats: {fileID: 666293308}
+  _uiManager: {fileID: 1464824632}
+--- !u!1 &618214487
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 618214488}
+  m_Layer: 0
+  m_Name: invincible
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &618214488
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 618214487}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -227.81999, y: -1.5946388, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 14617237}
+  m_Father: {fileID: 0}
+  m_RootOrder: 7
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &625186085
 GameObject:
   m_ObjectHideFlags: 0
@@ -10352,6 +10409,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _playerStats: {fileID: 666293308}
+  _uiManager: {fileID: 1464824632}
 --- !u!1 &666293300
 GameObject:
   m_ObjectHideFlags: 0
@@ -10565,6 +10623,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 12d789db800b14040985eda8580e0c53, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _uiManager: {fileID: 1464824632}
   _puntosVida: 100
 --- !u!1 &668119707
 GameObject:
@@ -10711,6 +10770,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _playerStats: {fileID: 666293308}
+  _uiManager: {fileID: 1464824632}
 --- !u!1 &678821723
 GameObject:
   m_ObjectHideFlags: 0
@@ -10856,6 +10916,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _playerStats: {fileID: 666293308}
+  _uiManager: {fileID: 1464824632}
 --- !u!1 &737602038
 GameObject:
   m_ObjectHideFlags: 0
@@ -11001,6 +11062,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _playerStats: {fileID: 666293308}
+  _uiManager: {fileID: 1464824632}
 --- !u!1 &738641143
 GameObject:
   m_ObjectHideFlags: 0
@@ -11277,6 +11339,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _playerStats: {fileID: 666293308}
+  _uiManager: {fileID: 1464824632}
 --- !u!1 &757524723
 GameObject:
   m_ObjectHideFlags: 0
@@ -11422,6 +11485,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _playerStats: {fileID: 666293308}
+  _uiManager: {fileID: 1464824632}
 --- !u!1 &767661847
 GameObject:
   m_ObjectHideFlags: 0
@@ -11581,14 +11645,13 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 1140115239}
   - {fileID: 1419461981}
   - {fileID: 515346996}
   - {fileID: 1129444163}
   - {fileID: 883263284}
   - {fileID: 914719334}
   m_Father: {fileID: 0}
-  m_RootOrder: 13
+  m_RootOrder: 14
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &784698642
 GameObject:
@@ -12452,6 +12515,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _playerStats: {fileID: 666293308}
+  _uiManager: {fileID: 1464824632}
 --- !u!61 &883263286
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -12887,6 +12951,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _playerStats: {fileID: 666293308}
+  _uiManager: {fileID: 1464824632}
 --- !u!61 &914719336
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -13288,6 +13353,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _playerStats: {fileID: 666293308}
+  _uiManager: {fileID: 1464824632}
 --- !u!1 &929430958
 GameObject:
   m_ObjectHideFlags: 0
@@ -13564,6 +13630,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _playerStats: {fileID: 666293308}
+  _uiManager: {fileID: 1464824632}
 --- !u!1 &960741123
 GameObject:
   m_ObjectHideFlags: 0
@@ -13840,6 +13907,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _playerStats: {fileID: 666293308}
+  _uiManager: {fileID: 1464824632}
 --- !u!1 &1007631098
 GameObject:
   m_ObjectHideFlags: 0
@@ -14116,6 +14184,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _playerStats: {fileID: 666293308}
+  _uiManager: {fileID: 1464824632}
 --- !u!1 &1017219686
 GameObject:
   m_ObjectHideFlags: 0
@@ -14261,6 +14330,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _playerStats: {fileID: 666293308}
+  _uiManager: {fileID: 1464824632}
 --- !u!1 &1017245640
 GameObject:
   m_ObjectHideFlags: 0
@@ -14358,7 +14428,7 @@ RectTransform:
   - {fileID: 176724237}
   - {fileID: 368306114}
   m_Father: {fileID: 0}
-  m_RootOrder: 10
+  m_RootOrder: 11
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -14884,6 +14954,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _playerStats: {fileID: 666293308}
+  _uiManager: {fileID: 1464824632}
 --- !u!1 &1056542230
 GameObject:
   m_ObjectHideFlags: 0
@@ -15553,6 +15624,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _playerStats: {fileID: 666293308}
+  _uiManager: {fileID: 1464824632}
 --- !u!1 &1100298094
 GameObject:
   m_ObjectHideFlags: 0
@@ -15960,6 +16032,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _playerStats: {fileID: 666293308}
+  _uiManager: {fileID: 1464824632}
 --- !u!1 &1110407264
 GameObject:
   m_ObjectHideFlags: 0
@@ -16367,6 +16440,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _playerStats: {fileID: 666293308}
+  _uiManager: {fileID: 1464824632}
 --- !u!1 &1129444162
 GameObject:
   m_ObjectHideFlags: 0
@@ -16415,6 +16489,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _playerStats: {fileID: 666293308}
+  _uiManager: {fileID: 1464824632}
 --- !u!61 &1129444165
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -16685,6 +16760,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _playerStats: {fileID: 666293308}
+  _uiManager: {fileID: 1464824632}
 --- !u!1 &1134068513
 GameObject:
   m_ObjectHideFlags: 0
@@ -16830,151 +16906,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _playerStats: {fileID: 666293308}
---- !u!1 &1140115234
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1140115239}
-  - component: {fileID: 1140115238}
-  - component: {fileID: 1140115236}
-  - component: {fileID: 1140115235}
-  m_Layer: 0
-  m_Name: Cloud B
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &1140115235
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1140115234}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 734cddfc7cb950d4596e3f31f1b43ad2, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _playerStats: {fileID: 666293308}
---- !u!61 &1140115236
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1140115234}
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_ForceSendLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_ForceReceiveLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_ContactCaptureLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_CallbackLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_IsTrigger: 1
-  m_UsedByEffector: 0
-  m_CompositeOperation: 0
-  m_CompositeOrder: 0
-  m_Offset: {x: 0, y: 0.15625}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0}
-    oldSize: {x: 0.6875, y: 0.3125}
-    newSize: {x: 0.6875, y: 0.3125}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  m_Size: {x: 0.6875, y: 0.3125}
-  m_EdgeRadius: 0
---- !u!212 &1140115238
-SpriteRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1140115234}
-  m_Enabled: 1
-  m_CastShadows: 0
-  m_ReceiveShadows: 0
-  m_DynamicOccludee: 1
-  m_StaticShadowCaster: 0
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_RayTracingMode: 0
-  m_RayTraceProcedural: 0
-  m_RenderingLayerMask: 1
-  m_RendererPriority: 0
-  m_Materials:
-  - {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_ReceiveGI: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 1
-  m_SelectedEditorRenderState: 0
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: f4a1ed8c5bcdb834889d9301f7ee1ab7, type: 3}
-  m_Color: {r: 0.70852685, g: 0.36320752, b: 1, a: 1}
-  m_FlipX: 0
-  m_FlipY: 0
-  m_DrawMode: 0
-  m_Size: {x: 0.6875, y: 0.3125}
-  m_AdaptiveModeThreshold: 0.5
-  m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
-  m_SpriteSortPoint: 0
---- !u!4 &1140115239
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1140115234}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.61, y: -1.97, z: -7.444244}
-  m_LocalScale: {x: 0.6871362, y: 0.8245633, z: 0.31057}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 773414138}
-  m_RootOrder: -1
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  _uiManager: {fileID: 1464824632}
 --- !u!1 &1149357996
 GameObject:
   m_ObjectHideFlags: 0
@@ -17019,7 +16951,7 @@ Transform:
   - {fileID: 1021884078}
   - {fileID: 784698643}
   m_Father: {fileID: 0}
-  m_RootOrder: 14
+  m_RootOrder: 15
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1188451671
 GameObject:
@@ -17512,6 +17444,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _playerStats: {fileID: 666293308}
+  _uiManager: {fileID: 1464824632}
 --- !u!1 &1223430864
 GameObject:
   m_ObjectHideFlags: 0
@@ -17657,6 +17590,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _playerStats: {fileID: 666293308}
+  _uiManager: {fileID: 1464824632}
 --- !u!1 &1223719720
 GameObject:
   m_ObjectHideFlags: 0
@@ -17802,6 +17736,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _playerStats: {fileID: 666293308}
+  _uiManager: {fileID: 1464824632}
 --- !u!1 &1229093615
 GameObject:
   m_ObjectHideFlags: 0
@@ -17947,6 +17882,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _playerStats: {fileID: 666293308}
+  _uiManager: {fileID: 1464824632}
 --- !u!1 &1233815459
 GameObject:
   m_ObjectHideFlags: 0
@@ -18291,7 +18227,7 @@ Transform:
   - {fileID: 1110407265}
   - {fileID: 2045454827}
   m_Father: {fileID: 0}
-  m_RootOrder: 8
+  m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1246448228
 GameObject:
@@ -18700,6 +18636,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _playerStats: {fileID: 666293308}
+  _uiManager: {fileID: 1464824632}
 --- !u!1 &1267568472
 GameObject:
   m_ObjectHideFlags: 0
@@ -18845,6 +18782,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _playerStats: {fileID: 666293308}
+  _uiManager: {fileID: 1464824632}
 --- !u!1 &1278358857
 GameObject:
   m_ObjectHideFlags: 0
@@ -19542,6 +19480,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _playerStats: {fileID: 666293308}
+  _uiManager: {fileID: 1464824632}
 --- !u!1 &1324963130
 GameObject:
   m_ObjectHideFlags: 0
@@ -19846,6 +19785,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _playerStats: {fileID: 666293308}
+  _uiManager: {fileID: 1464824632}
 --- !u!1 &1327725398
 GameObject:
   m_ObjectHideFlags: 0
@@ -20384,6 +20324,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _playerStats: {fileID: 666293308}
+  _uiManager: {fileID: 1464824632}
 --- !u!1 &1370867203
 GameObject:
   m_ObjectHideFlags: 0
@@ -20660,6 +20601,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _playerStats: {fileID: 666293308}
+  _uiManager: {fileID: 1464824632}
 --- !u!1 &1419461980
 GameObject:
   m_ObjectHideFlags: 0
@@ -20708,6 +20650,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _playerStats: {fileID: 666293308}
+  _uiManager: {fileID: 1464824632}
 --- !u!61 &1419461983
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -20978,6 +20921,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _playerStats: {fileID: 666293308}
+  _uiManager: {fileID: 1464824632}
 --- !u!1 &1428473122
 GameObject:
   m_ObjectHideFlags: 0
@@ -21123,6 +21067,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _playerStats: {fileID: 666293308}
+  _uiManager: {fileID: 1464824632}
 --- !u!1 &1433695602
 GameObject:
   m_ObjectHideFlags: 0
@@ -21177,7 +21122,6 @@ Transform:
   - {fileID: 1126433288}
   - {fileID: 1956284501}
   - {fileID: 1644079755}
-  - {fileID: 14617237}
   - {fileID: 1543401993}
   - {fileID: 1990482018}
   - {fileID: 920530583}
@@ -21515,6 +21459,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _playerStats: {fileID: 666293308}
+  _uiManager: {fileID: 1464824632}
 --- !u!1 &1464824631
 GameObject:
   m_ObjectHideFlags: 0
@@ -21558,7 +21503,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 12
+  m_RootOrder: 13
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1465831014
 GameObject:
@@ -21705,6 +21650,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _playerStats: {fileID: 666293308}
+  _uiManager: {fileID: 1464824632}
 --- !u!1 &1468327854
 GameObject:
   m_ObjectHideFlags: 0
@@ -22402,6 +22348,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _playerStats: {fileID: 666293308}
+  _uiManager: {fileID: 1464824632}
 --- !u!1 &1500558959
 GameObject:
   m_ObjectHideFlags: 0
@@ -22968,6 +22915,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _playerStats: {fileID: 666293308}
+  _uiManager: {fileID: 1464824632}
 --- !u!1 &1543401992
 GameObject:
   m_ObjectHideFlags: 0
@@ -23113,6 +23061,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _playerStats: {fileID: 666293308}
+  _uiManager: {fileID: 1464824632}
 --- !u!1 &1555827311
 GameObject:
   m_ObjectHideFlags: 0
@@ -23520,6 +23469,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _playerStats: {fileID: 666293308}
+  _uiManager: {fileID: 1464824632}
 --- !u!1 &1610549218
 GameObject:
   m_ObjectHideFlags: 0
@@ -23665,6 +23615,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _playerStats: {fileID: 666293308}
+  _uiManager: {fileID: 1464824632}
 --- !u!1 &1615286727
 GameObject:
   m_ObjectHideFlags: 0
@@ -23810,6 +23761,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _playerStats: {fileID: 666293308}
+  _uiManager: {fileID: 1464824632}
 --- !u!1 &1628363371
 GameObject:
   m_ObjectHideFlags: 0
@@ -23955,6 +23907,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _playerStats: {fileID: 666293308}
+  _uiManager: {fileID: 1464824632}
 --- !u!1 &1633116434
 GameObject:
   m_ObjectHideFlags: 0
@@ -24100,6 +24053,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _playerStats: {fileID: 666293308}
+  _uiManager: {fileID: 1464824632}
 --- !u!1 &1641204001
 GameObject:
   m_ObjectHideFlags: 0
@@ -24507,6 +24461,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _playerStats: {fileID: 666293308}
+  _uiManager: {fileID: 1464824632}
 --- !u!1 &1644965450
 GameObject:
   m_ObjectHideFlags: 0
@@ -24652,6 +24607,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _playerStats: {fileID: 666293308}
+  _uiManager: {fileID: 1464824632}
 --- !u!1 &1650512020
 GameObject:
   m_ObjectHideFlags: 0
@@ -24797,6 +24753,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _playerStats: {fileID: 666293308}
+  _uiManager: {fileID: 1464824632}
 --- !u!1 &1659216279
 GameObject:
   m_ObjectHideFlags: 0
@@ -24942,6 +24899,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _playerStats: {fileID: 666293308}
+  _uiManager: {fileID: 1464824632}
 --- !u!1 &1669368933
 GameObject:
   m_ObjectHideFlags: 0
@@ -26219,6 +26177,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _playerStats: {fileID: 666293308}
+  _uiManager: {fileID: 1464824632}
 --- !u!1 &1741767365
 GameObject:
   m_ObjectHideFlags: 0
@@ -26495,6 +26454,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _playerStats: {fileID: 666293308}
+  _uiManager: {fileID: 1464824632}
 --- !u!1 &1765427213
 GameObject:
   m_ObjectHideFlags: 0
@@ -26640,6 +26600,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _playerStats: {fileID: 666293308}
+  _uiManager: {fileID: 1464824632}
 --- !u!1 &1766010655
 GameObject:
   m_ObjectHideFlags: 0
@@ -26877,7 +26838,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 9
+  m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1769280671
 MonoBehaviour:
@@ -26891,6 +26852,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a71f5a6fab7c2ff4a857b2993c4993cd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _uiManager: {fileID: 1464824632}
 --- !u!1 &1774894366
 GameObject:
   m_ObjectHideFlags: 0
@@ -27298,6 +27260,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _playerStats: {fileID: 666293308}
+  _uiManager: {fileID: 1464824632}
 --- !u!1 &1797978451
 GameObject:
   m_ObjectHideFlags: 0
@@ -27658,6 +27621,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _playerStats: {fileID: 666293308}
+  _uiManager: {fileID: 1464824632}
 --- !u!1 &1852925288
 GameObject:
   m_ObjectHideFlags: 0
@@ -27934,6 +27898,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _playerStats: {fileID: 666293308}
+  _uiManager: {fileID: 1464824632}
 --- !u!1 &1878990304
 GameObject:
   m_ObjectHideFlags: 0
@@ -28417,6 +28382,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _playerStats: {fileID: 666293308}
+  _uiManager: {fileID: 1464824632}
 --- !u!1 &1950660182
 GameObject:
   m_ObjectHideFlags: 0
@@ -28908,6 +28874,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _playerStats: {fileID: 666293308}
+  _uiManager: {fileID: 1464824632}
 --- !u!1 &1971488065
 GameObject:
   m_ObjectHideFlags: 0
@@ -29474,6 +29441,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _playerStats: {fileID: 666293308}
+  _uiManager: {fileID: 1464824632}
 --- !u!1 &1994130366
 GameObject:
   m_ObjectHideFlags: 0
@@ -29619,6 +29587,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _playerStats: {fileID: 666293308}
+  _uiManager: {fileID: 1464824632}
 --- !u!1 &1997072229
 GameObject:
   m_ObjectHideFlags: 0
@@ -29764,6 +29733,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _playerStats: {fileID: 666293308}
+  _uiManager: {fileID: 1464824632}
 --- !u!1 &2009154116
 GameObject:
   m_ObjectHideFlags: 0
@@ -30302,6 +30272,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _playerStats: {fileID: 666293308}
+  _uiManager: {fileID: 1464824632}
 --- !u!1 &2054092931
 GameObject:
   m_ObjectHideFlags: 0
@@ -30606,6 +30577,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _playerStats: {fileID: 666293308}
+  _uiManager: {fileID: 1464824632}
 --- !u!1 &2059161363
 GameObject:
   m_ObjectHideFlags: 0
@@ -30751,6 +30723,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _playerStats: {fileID: 666293308}
+  _uiManager: {fileID: 1464824632}
 --- !u!1 &2061116999
 GameObject:
   m_ObjectHideFlags: 0
@@ -31317,6 +31290,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _playerStats: {fileID: 666293308}
+  _uiManager: {fileID: 1464824632}
 --- !u!1 &2119562622
 GameObject:
   m_ObjectHideFlags: 0
@@ -31502,6 +31476,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _playerStats: {fileID: 666293308}
+  _uiManager: {fileID: 1464824632}
 --- !u!1 &2124958632
 GameObject:
   m_ObjectHideFlags: 0
@@ -31850,7 +31825,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 7
+  m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2141163847
 GameObject:
@@ -31997,6 +31972,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _playerStats: {fileID: 666293308}
+  _uiManager: {fileID: 1464824632}
 --- !u!1 &2141618932
 GameObject:
   m_ObjectHideFlags: 0
