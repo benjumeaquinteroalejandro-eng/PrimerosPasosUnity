@@ -4,9 +4,9 @@ public class ObstaculoMortal : MonoBehaviour
 {
     [SerializeField] private PlayerStats _playerStats;
     [SerializeField] private UIManager _uiManager;
-    private void OnCollisionEnter2D(Collision2D colision)
+    private void OnCollisionEnter2D(Collision2D collision)
     {
-        if (colision.gameObject.tag == "Player")
+        if (collision.gameObject.tag == "Player")
         {
             _uiManager.RestarFillAmount(0.1f);
 
