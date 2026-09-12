@@ -24,6 +24,6 @@ public class MovimientoJugador : MonoBehaviour
             }
         }
 
-        _cuerpoRigido2D.velocity = new Vector2(1 * _velocidadMovimiento,_cuerpoRigido2D.velocity.y);
+        _cuerpoRigido2D.velocity = new Vector2(1 * _velocidadMovimiento, _cuerpoRigido2D.velocity.y);
     }
 }

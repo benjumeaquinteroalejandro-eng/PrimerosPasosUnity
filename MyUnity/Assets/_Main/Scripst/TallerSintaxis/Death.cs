@@ -9,6 +9,6 @@ public class Death : MonoBehaviour
         {
             _uiManager.RestarFillAmount(1F);
             Destroy(collision.gameObject);
-        }
+        } 
     }
 }
