@@ -10,11 +10,14 @@ public class OuGodness : MonoBehaviour
     {
         if (colision.gameObject.tag == "Player")
         {
-            _playerStats.OverHeal(10);
+            if (_playerStats.puntosVida < 100)
+            {
+                _playerStats.OverHeal(10);
 
-            _uiManager.SumarFillAmount(0.1f);
+                _uiManager.SumarFillAmount(0.1f);
 
-            Destroy(this.gameObject);
+                Destroy(this.gameObject);
+            }
         }
     }
 }
