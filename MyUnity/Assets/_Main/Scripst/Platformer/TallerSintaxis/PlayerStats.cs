@@ -17,9 +17,15 @@ public class PlayerStats : MonoBehaviour
 
     private void Update()
     {
+
         if (_puntosVida > 80)
         {
             _uiManager.ColorBarra(Color.green);
+        }
+
+        else if (_puntosVida >= 100)
+        {
+            _puntosVida = 100;
         }
 
         else if (_puntosVida >=40 && _puntosVida < 80)
@@ -31,5 +37,11 @@ public class PlayerStats : MonoBehaviour
         {
             _uiManager.ColorBarra(Color.red);
         }
+
+        if (_puntosVida <= 0)
+        {
+            Destroy(this.gameObject);
+        }
+
     }
 }
