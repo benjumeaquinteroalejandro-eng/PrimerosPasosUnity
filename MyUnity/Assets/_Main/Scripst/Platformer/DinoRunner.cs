@@ -16,7 +16,7 @@ public class DinoRunner : MonoBehaviour
 
     private bool _isDead = false;
 
-    private void Awake()
+    private void Awake() //start loads in the first frame, on the other hand awake does so before first frame 
     {
         _rigidbody2D1 = GetComponent<Rigidbody2D>();
 

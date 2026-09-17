@@ -472,6 +472,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _playerStats: {fileID: 666293308}
+  _uiManager: {fileID: 219128502}
 --- !u!1 &28550206
 GameObject:
   m_ObjectHideFlags: 0
@@ -617,6 +618,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _playerStats: {fileID: 666293308}
+  _uiManager: {fileID: 219128502}
 --- !u!1 &32315695
 GameObject:
   m_ObjectHideFlags: 0
@@ -1208,6 +1210,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _playerStats: {fileID: 666293308}
+  _uiManager: {fileID: 219128502}
 --- !u!1 &42954728
 GameObject:
   m_ObjectHideFlags: 0
@@ -1484,6 +1487,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _playerStats: {fileID: 666293308}
+  _uiManager: {fileID: 219128502}
 --- !u!1 &81634786
 GameObject:
   m_ObjectHideFlags: 0
@@ -1629,6 +1633,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _playerStats: {fileID: 666293308}
+  _uiManager: {fileID: 219128502}
 --- !u!1 &93191781
 GameObject:
   m_ObjectHideFlags: 0
@@ -1905,6 +1910,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _playerStats: {fileID: 666293308}
+  _uiManager: {fileID: 219128502}
 --- !u!1 &108342555
 GameObject:
   m_ObjectHideFlags: 0
@@ -2181,6 +2187,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _playerStats: {fileID: 666293308}
+  _uiManager: {fileID: 219128502}
 --- !u!1 &119125025
 GameObject:
   m_ObjectHideFlags: 0
@@ -2912,6 +2919,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _playerStats: {fileID: 666293308}
+  _uiManager: {fileID: 219128502}
 --- !u!1 &174117712
 GameObject:
   m_ObjectHideFlags: 0
@@ -3057,6 +3065,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _playerStats: {fileID: 666293308}
+  _uiManager: {fileID: 219128502}
 --- !u!1 &184474445
 GameObject:
   m_ObjectHideFlags: 0
@@ -3337,6 +3346,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _playerStats: {fileID: 666293308}
+  _uiManager: {fileID: 219128502}
 --- !u!1 &189711554
 GameObject:
   m_ObjectHideFlags: 0
@@ -3482,6 +3492,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _playerStats: {fileID: 666293308}
+  _uiManager: {fileID: 219128502}
 --- !u!1 &194110022
 GameObject:
   m_ObjectHideFlags: 0
@@ -3627,6 +3638,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _playerStats: {fileID: 666293308}
+  _uiManager: {fileID: 219128502}
 --- !u!1 &195587154
 GameObject:
   m_ObjectHideFlags: 0
@@ -3903,6 +3915,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _playerStats: {fileID: 666293308}
+  _uiManager: {fileID: 219128502}
 --- !u!1 &219128501
 GameObject:
   m_ObjectHideFlags: 0
@@ -4224,6 +4237,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _playerStats: {fileID: 666293308}
+  _uiManager: {fileID: 219128502}
 --- !u!1 &261964556
 GameObject:
   m_ObjectHideFlags: 0
@@ -4369,6 +4383,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _playerStats: {fileID: 666293308}
+  _uiManager: {fileID: 219128502}
 --- !u!1 &262100683
 GameObject:
   m_ObjectHideFlags: 0
@@ -5300,6 +5315,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _playerStats: {fileID: 666293308}
+  _uiManager: {fileID: 219128502}
 --- !u!1 &308915884
 GameObject:
   m_ObjectHideFlags: 0
@@ -6100,6 +6116,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _playerStats: {fileID: 666293308}
+  _uiManager: {fileID: 219128502}
 --- !u!1 &363891376
 GameObject:
   m_ObjectHideFlags: 0
@@ -6769,6 +6786,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _playerStats: {fileID: 666293308}
+  _uiManager: {fileID: 219128502}
 --- !u!1 &412346301
 GameObject:
   m_ObjectHideFlags: 0
@@ -6914,6 +6932,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _playerStats: {fileID: 666293308}
+  _uiManager: {fileID: 219128502}
 --- !u!1 &414019266
 GameObject:
   m_ObjectHideFlags: 0
@@ -6986,7 +7005,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: -1
+  m_SortingOrder: -2
   m_Sprite: {fileID: 21300000, guid: 686af9210bf8e3042a0ce5aae4d44e44, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -7070,7 +7089,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: -1
+  m_SortingOrder: -2
   m_Sprite: {fileID: 21300000, guid: 686af9210bf8e3042a0ce5aae4d44e44, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -8091,6 +8110,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _playerStats: {fileID: 666293308}
+  _uiManager: {fileID: 219128502}
 --- !u!1 &544603756
 GameObject:
   m_ObjectHideFlags: 0
@@ -8474,6 +8494,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _playerStats: {fileID: 666293308}
+  _uiManager: {fileID: 219128502}
 --- !u!1 &581031561
 GameObject:
   m_ObjectHideFlags: 0
@@ -8619,6 +8640,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _playerStats: {fileID: 666293308}
+  _uiManager: {fileID: 219128502}
 --- !u!1 &590050045
 GameObject:
   m_ObjectHideFlags: 0
@@ -8764,6 +8786,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _playerStats: {fileID: 666293308}
+  _uiManager: {fileID: 219128502}
 --- !u!1 &590402339
 GameObject:
   m_ObjectHideFlags: 0
@@ -8909,6 +8932,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _playerStats: {fileID: 666293308}
+  _uiManager: {fileID: 219128502}
 --- !u!1 &602466314
 GameObject:
   m_ObjectHideFlags: 0
@@ -9054,6 +9078,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _playerStats: {fileID: 666293308}
+  _uiManager: {fileID: 219128502}
 --- !u!1 &625186085
 GameObject:
   m_ObjectHideFlags: 0
@@ -9529,6 +9554,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _playerStats: {fileID: 666293308}
+  _uiManager: {fileID: 219128502}
 --- !u!1 &666293300
 GameObject:
   m_ObjectHideFlags: 0
@@ -9743,6 +9769,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _puntosVida: 100
+  _uiManager: {fileID: 219128502}
 --- !u!1 &668119707
 GameObject:
   m_ObjectHideFlags: 0
@@ -9888,6 +9915,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _playerStats: {fileID: 666293308}
+  _uiManager: {fileID: 219128502}
 --- !u!1 &678821723
 GameObject:
   m_ObjectHideFlags: 0
@@ -10033,6 +10061,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _playerStats: {fileID: 666293308}
+  _uiManager: {fileID: 219128502}
 --- !u!1 &737602038
 GameObject:
   m_ObjectHideFlags: 0
@@ -10178,6 +10207,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _playerStats: {fileID: 666293308}
+  _uiManager: {fileID: 219128502}
 --- !u!1 &738641143
 GameObject:
   m_ObjectHideFlags: 0
@@ -10454,6 +10484,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _playerStats: {fileID: 666293308}
+  _uiManager: {fileID: 219128502}
 --- !u!1 &757524723
 GameObject:
   m_ObjectHideFlags: 0
@@ -10599,6 +10630,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _playerStats: {fileID: 666293308}
+  _uiManager: {fileID: 219128502}
 --- !u!1 &767661847
 GameObject:
   m_ObjectHideFlags: 0
@@ -11923,6 +11955,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _playerStats: {fileID: 666293308}
+  _uiManager: {fileID: 219128502}
 --- !u!1 &929430958
 GameObject:
   m_ObjectHideFlags: 0
@@ -12199,6 +12232,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _playerStats: {fileID: 666293308}
+  _uiManager: {fileID: 219128502}
 --- !u!1 &960741123
 GameObject:
   m_ObjectHideFlags: 0
@@ -12579,6 +12613,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _playerStats: {fileID: 666293308}
+  _uiManager: {fileID: 219128502}
 --- !u!1 &1007631098
 GameObject:
   m_ObjectHideFlags: 0
@@ -12855,6 +12890,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _playerStats: {fileID: 666293308}
+  _uiManager: {fileID: 219128502}
 --- !u!1 &1017219686
 GameObject:
   m_ObjectHideFlags: 0
@@ -13000,6 +13036,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _playerStats: {fileID: 666293308}
+  _uiManager: {fileID: 219128502}
 --- !u!1 &1026934115
 GameObject:
   m_ObjectHideFlags: 0
@@ -13072,7 +13109,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: -1
+  m_SortingOrder: -2
   m_Sprite: {fileID: 21300000, guid: 686af9210bf8e3042a0ce5aae4d44e44, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -13360,6 +13397,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _playerStats: {fileID: 666293308}
+  _uiManager: {fileID: 219128502}
 --- !u!1 &1056542230
 GameObject:
   m_ObjectHideFlags: 0
@@ -14029,6 +14067,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _playerStats: {fileID: 666293308}
+  _uiManager: {fileID: 219128502}
 --- !u!1 &1100298094
 GameObject:
   m_ObjectHideFlags: 0
@@ -14436,6 +14475,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _playerStats: {fileID: 666293308}
+  _uiManager: {fileID: 219128502}
 --- !u!1 &1110407264
 GameObject:
   m_ObjectHideFlags: 0
@@ -14843,6 +14883,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _playerStats: {fileID: 666293308}
+  _uiManager: {fileID: 219128502}
 --- !u!1 &1131809208
 GameObject:
   m_ObjectHideFlags: 0
@@ -14988,6 +15029,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _playerStats: {fileID: 666293308}
+  _uiManager: {fileID: 219128502}
 --- !u!1 &1134068513
 GameObject:
   m_ObjectHideFlags: 0
@@ -15133,6 +15175,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _playerStats: {fileID: 666293308}
+  _uiManager: {fileID: 219128502}
 --- !u!1 &1188451671
 GameObject:
   m_ObjectHideFlags: 0
@@ -15467,7 +15510,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: -1
+  m_SortingOrder: -2
   m_Sprite: {fileID: 21300000, guid: 686af9210bf8e3042a0ce5aae4d44e44, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -15624,6 +15667,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _playerStats: {fileID: 666293308}
+  _uiManager: {fileID: 219128502}
 --- !u!1 &1223430864
 GameObject:
   m_ObjectHideFlags: 0
@@ -15769,6 +15813,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _playerStats: {fileID: 666293308}
+  _uiManager: {fileID: 219128502}
 --- !u!1 &1223719720
 GameObject:
   m_ObjectHideFlags: 0
@@ -15914,6 +15959,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _playerStats: {fileID: 666293308}
+  _uiManager: {fileID: 219128502}
 --- !u!1 &1229093615
 GameObject:
   m_ObjectHideFlags: 0
@@ -16059,6 +16105,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _playerStats: {fileID: 666293308}
+  _uiManager: {fileID: 219128502}
 --- !u!1 &1233815459
 GameObject:
   m_ObjectHideFlags: 0
@@ -16131,7 +16178,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: -1
+  m_SortingOrder: -2
   m_Sprite: {fileID: 21300000, guid: 686af9210bf8e3042a0ce5aae4d44e44, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -16653,6 +16700,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _playerStats: {fileID: 666293308}
+  _uiManager: {fileID: 219128502}
 --- !u!1 &1267568472
 GameObject:
   m_ObjectHideFlags: 0
@@ -16798,6 +16846,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _playerStats: {fileID: 666293308}
+  _uiManager: {fileID: 219128502}
 --- !u!1 &1278358857
 GameObject:
   m_ObjectHideFlags: 0
@@ -17471,6 +17520,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _playerStats: {fileID: 666293308}
+  _uiManager: {fileID: 219128502}
 --- !u!1 &1327114901
 GameObject:
   m_ObjectHideFlags: 0
@@ -17616,6 +17666,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _playerStats: {fileID: 666293308}
+  _uiManager: {fileID: 219128502}
 --- !u!1 &1327725398
 GameObject:
   m_ObjectHideFlags: 0
@@ -18154,6 +18205,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _playerStats: {fileID: 666293308}
+  _uiManager: {fileID: 219128502}
 --- !u!1 &1370867203
 GameObject:
   m_ObjectHideFlags: 0
@@ -18430,6 +18482,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _playerStats: {fileID: 666293308}
+  _uiManager: {fileID: 219128502}
 --- !u!1 &1427839023
 GameObject:
   m_ObjectHideFlags: 0
@@ -18575,6 +18628,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _playerStats: {fileID: 666293308}
+  _uiManager: {fileID: 219128502}
 --- !u!1 &1428473122
 GameObject:
   m_ObjectHideFlags: 0
@@ -18720,6 +18774,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _playerStats: {fileID: 666293308}
+  _uiManager: {fileID: 219128502}
 --- !u!1 &1433695602
 GameObject:
   m_ObjectHideFlags: 0
@@ -19112,6 +19167,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _playerStats: {fileID: 666293308}
+  _uiManager: {fileID: 219128502}
 --- !u!1 &1465831014
 GameObject:
   m_ObjectHideFlags: 0
@@ -19257,6 +19313,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _playerStats: {fileID: 666293308}
+  _uiManager: {fileID: 219128502}
 --- !u!1 &1471487595
 GameObject:
   m_ObjectHideFlags: 0
@@ -19795,6 +19852,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _playerStats: {fileID: 666293308}
+  _uiManager: {fileID: 219128502}
 --- !u!1 &1500558959
 GameObject:
   m_ObjectHideFlags: 0
@@ -20202,6 +20260,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _playerStats: {fileID: 666293308}
+  _uiManager: {fileID: 219128502}
 --- !u!1 &1543401992
 GameObject:
   m_ObjectHideFlags: 0
@@ -20347,6 +20406,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _playerStats: {fileID: 666293308}
+  _uiManager: {fileID: 219128502}
 --- !u!1 &1555827311
 GameObject:
   m_ObjectHideFlags: 0
@@ -20754,6 +20814,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _playerStats: {fileID: 666293308}
+  _uiManager: {fileID: 219128502}
 --- !u!1 &1610549218
 GameObject:
   m_ObjectHideFlags: 0
@@ -20899,6 +20960,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _playerStats: {fileID: 666293308}
+  _uiManager: {fileID: 219128502}
 --- !u!1 &1615286727
 GameObject:
   m_ObjectHideFlags: 0
@@ -21044,6 +21106,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _playerStats: {fileID: 666293308}
+  _uiManager: {fileID: 219128502}
 --- !u!1 &1628363371
 GameObject:
   m_ObjectHideFlags: 0
@@ -21189,6 +21252,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _playerStats: {fileID: 666293308}
+  _uiManager: {fileID: 219128502}
 --- !u!1 &1633116434
 GameObject:
   m_ObjectHideFlags: 0
@@ -21334,6 +21398,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _playerStats: {fileID: 666293308}
+  _uiManager: {fileID: 219128502}
 --- !u!1 &1641204001
 GameObject:
   m_ObjectHideFlags: 0
@@ -21741,6 +21806,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _playerStats: {fileID: 666293308}
+  _uiManager: {fileID: 219128502}
 --- !u!1 &1644965450
 GameObject:
   m_ObjectHideFlags: 0
@@ -21886,6 +21952,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _playerStats: {fileID: 666293308}
+  _uiManager: {fileID: 219128502}
 --- !u!1 &1650512020
 GameObject:
   m_ObjectHideFlags: 0
@@ -22031,6 +22098,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _playerStats: {fileID: 666293308}
+  _uiManager: {fileID: 219128502}
 --- !u!1 &1659216279
 GameObject:
   m_ObjectHideFlags: 0
@@ -22176,6 +22244,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _playerStats: {fileID: 666293308}
+  _uiManager: {fileID: 219128502}
 --- !u!1 &1669368933
 GameObject:
   m_ObjectHideFlags: 0
@@ -23372,7 +23441,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: -1
+  m_SortingOrder: -2
   m_Sprite: {fileID: 21300000, guid: 686af9210bf8e3042a0ce5aae4d44e44, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -23529,6 +23598,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _playerStats: {fileID: 666293308}
+  _uiManager: {fileID: 219128502}
 --- !u!1 &1741767365
 GameObject:
   m_ObjectHideFlags: 0
@@ -23674,6 +23744,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _playerStats: {fileID: 666293308}
+  _uiManager: {fileID: 219128502}
 --- !u!1 &1756095317
 GameObject:
   m_ObjectHideFlags: 0
@@ -23819,6 +23890,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _playerStats: {fileID: 666293308}
+  _uiManager: {fileID: 219128502}
 --- !u!1 &1765427213
 GameObject:
   m_ObjectHideFlags: 0
@@ -23964,6 +24036,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _playerStats: {fileID: 666293308}
+  _uiManager: {fileID: 219128502}
 --- !u!1 &1766010655
 GameObject:
   m_ObjectHideFlags: 0
@@ -24176,7 +24249,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: -1
   m_Sprite: {fileID: 7482667652216324306, guid: 311925a002f4447b3a28927169b83ea6, type: 3}
   m_Color: {r: 0.38381097, g: 0.6190018, b: 0.6509434, a: 1}
   m_FlipX: 0
@@ -24212,10 +24285,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 1769280667}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 37cb536e3ba192f47a520b78e84c34dc, type: 3}
+  m_Script: {fileID: 11500000, guid: daf58323210e7d44f94134291a0cf647, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   _playerStats: {fileID: 666293308}
+  _uiManager: {fileID: 219128502}
 --- !u!1 &1774894366
 GameObject:
   m_ObjectHideFlags: 0
@@ -24623,6 +24697,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _playerStats: {fileID: 666293308}
+  _uiManager: {fileID: 219128502}
 --- !u!1 &1797978451
 GameObject:
   m_ObjectHideFlags: 0
@@ -24695,7 +24770,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: -1
+  m_SortingOrder: -2
   m_Sprite: {fileID: 21300000, guid: 686af9210bf8e3042a0ce5aae4d44e44, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -24983,6 +25058,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _playerStats: {fileID: 666293308}
+  _uiManager: {fileID: 219128502}
 --- !u!1 &1852925288
 GameObject:
   m_ObjectHideFlags: 0
@@ -25259,6 +25335,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _playerStats: {fileID: 666293308}
+  _uiManager: {fileID: 219128502}
 --- !u!1 &1878990304
 GameObject:
   m_ObjectHideFlags: 0
@@ -25666,6 +25743,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _playerStats: {fileID: 666293308}
+  _uiManager: {fileID: 219128502}
 --- !u!1 &1950660182
 GameObject:
   m_ObjectHideFlags: 0
@@ -25738,7 +25816,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: -1
+  m_SortingOrder: -2
   m_Sprite: {fileID: 21300000, guid: 686af9210bf8e3042a0ce5aae4d44e44, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -26157,6 +26235,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _playerStats: {fileID: 666293308}
+  _uiManager: {fileID: 219128502}
 --- !u!1 &1971488065
 GameObject:
   m_ObjectHideFlags: 0
@@ -26564,6 +26643,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _playerStats: {fileID: 666293308}
+  _uiManager: {fileID: 219128502}
 --- !u!1 &1994130366
 GameObject:
   m_ObjectHideFlags: 0
@@ -26709,6 +26789,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _playerStats: {fileID: 666293308}
+  _uiManager: {fileID: 219128502}
 --- !u!1 &1997072229
 GameObject:
   m_ObjectHideFlags: 0
@@ -26854,6 +26935,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _playerStats: {fileID: 666293308}
+  _uiManager: {fileID: 219128502}
 --- !u!1 &2009154116
 GameObject:
   m_ObjectHideFlags: 0
@@ -27392,6 +27474,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _playerStats: {fileID: 666293308}
+  _uiManager: {fileID: 219128502}
 --- !u!1 &2056744765
 GameObject:
   m_ObjectHideFlags: 0
@@ -27537,6 +27620,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _playerStats: {fileID: 666293308}
+  _uiManager: {fileID: 219128502}
 --- !u!1 &2059161363
 GameObject:
   m_ObjectHideFlags: 0
@@ -27682,6 +27766,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _playerStats: {fileID: 666293308}
+  _uiManager: {fileID: 219128502}
 --- !u!1 &2061116999
 GameObject:
   m_ObjectHideFlags: 0
@@ -28089,6 +28174,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _playerStats: {fileID: 666293308}
+  _uiManager: {fileID: 219128502}
 --- !u!1 &2119562622
 GameObject:
   m_ObjectHideFlags: 0
@@ -28274,6 +28360,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _playerStats: {fileID: 666293308}
+  _uiManager: {fileID: 219128502}
 --- !u!1 &2124958632
 GameObject:
   m_ObjectHideFlags: 0
@@ -28346,7 +28433,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: -1
+  m_SortingOrder: -2
   m_Sprite: {fileID: 21300000, guid: 686af9210bf8e3042a0ce5aae4d44e44, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -28610,3 +28697,4 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _playerStats: {fileID: 666293308}
+  _uiManager: {fileID: 219128502}
