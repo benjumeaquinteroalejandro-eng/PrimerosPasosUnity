@@ -37,14 +37,14 @@ public class DinoRunner : MonoBehaviour
                 Debug.Log("LOOK AT ME!!!");
             }
         }
-        _rigidbody2D1.velocity = new Vector2(1 * _movementSpeed, _rigidbody2D1.velocity.y);
+        _rigidbody2D1.linearVelocity = new Vector2(1 * _movementSpeed, _rigidbody2D1.linearVelocity.y);
     }
 
     public void Morir()
     {
         if (_isDead) return; 
         _isDead = true;
-        _rigidbody2D1.velocity = Vector2.zero;
+        _rigidbody2D1.linearVelocity = Vector2.zero;
 
         _animator.SetTrigger("Death");
     }

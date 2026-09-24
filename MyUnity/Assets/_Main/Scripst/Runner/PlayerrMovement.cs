@@ -29,7 +29,7 @@ public class PlayerrMovement : MonoBehaviour
 
         }
 
-        _rigidbody2D.velocity = new Vector2(1 * _velocity, _rigidbody2D.velocity.y);
+        _rigidbody2D.linearVelocity = new Vector2(1 * _velocity, _rigidbody2D.linearVelocity.y);
     }
 
     private void OnCollisionEnter2D(Collision2D collision)

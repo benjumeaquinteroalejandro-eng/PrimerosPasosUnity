@@ -6,6 +6,7 @@ public class MovimientoJugador : MonoBehaviour
     [SerializeField] private float _velocidadMovimiento = 5f;
     [SerializeField] private Rigidbody2D _cuerpoRigido2D;
     [SerializeField] private DetectorSuelo _detectorSuelo;
+    [SerializeField] private SpriteRenderer _spriteRenderer;
 
     private float _directionX = 0f;
     private void Awake()
@@ -23,11 +24,13 @@ public class MovimientoJugador : MonoBehaviour
             {
                 _cuerpoRigido2D.AddForce(Vector2.up * _fuerzaSalto, ForceMode2D.Impulse);
 
-                Debug.Log("Oprimí la tecla");
+                Debug.Log("Oprimï¿½ la tecla");
             }
             if (Input.GetKey(KeyCode.D))
             {
                 _directionX = 1f;
+
+                _spriteRenderer.flipX = false;
 
                 Debug.Log("Camina");
             }
@@ -35,10 +38,12 @@ public class MovimientoJugador : MonoBehaviour
             {
                 _directionX = -1f;
 
+                _spriteRenderer.flipX = true;
+
                 Debug.Log("Reversa");
             }
         }
 
-        _cuerpoRigido2D.velocity = new Vector2(_directionX * _velocidadMovimiento,_cuerpoRigido2D.velocity.y);
+        _cuerpoRigido2D.linearVelocity = new Vector2(_directionX * _velocidadMovimiento,_cuerpoRigido2D.linearVelocity.y);
     }
 }
