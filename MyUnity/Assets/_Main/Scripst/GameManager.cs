@@ -9,6 +9,10 @@ public class GameManager : MonoBehaviour
         SceneManager.LoadScene(sceneID);
     }
 
+    public void SalirDelJuego()
+    {
+        Application.Quit();
+    }
     //responsabilidades game manager
     //1. cargar una escena o un nivel
     //2. reiniciar el juego o el nivel
