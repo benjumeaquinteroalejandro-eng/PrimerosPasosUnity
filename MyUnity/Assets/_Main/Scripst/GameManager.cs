@@ -13,6 +13,14 @@ public class GameManager : MonoBehaviour
     {
         Application.Quit();
     }
+    public void PasarJuego()
+    {
+        Time.timeScale = 0f;
+    }
+    public void RetomarJuego()
+    {
+        Time.timeScale = 1f;
+    }
     //responsabilidades game manager
     //1. cargar una escena o un nivel
     //2. reiniciar el juego o el nivel
