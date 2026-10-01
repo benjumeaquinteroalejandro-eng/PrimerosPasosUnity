@@ -11,7 +11,6 @@ public class Death : MonoBehaviour
             _playerStats.RestarVida(100);
             _uiManager.RestarFillAmount(1F);
             
-            Destroy(colision.gameObject);
         }
     }
 }
