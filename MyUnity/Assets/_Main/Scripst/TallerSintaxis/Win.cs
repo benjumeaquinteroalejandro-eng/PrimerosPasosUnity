@@ -9,6 +9,7 @@ public class Win : MonoBehaviour
         if (colision.gameObject.tag == "Player")
         {
             _gameManager.Win();
+            _gameManager.PauseGame(); 
         }
     }
 }
