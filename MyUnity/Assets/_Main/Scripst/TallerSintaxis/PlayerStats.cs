@@ -7,6 +7,7 @@ public class PlayerStats : MonoBehaviour
 
     [SerializeField] private UIManager _uiManager;
     [SerializeField] private GameManager _gameManager;
+    [SerializeField] private Animator _animator;
     public int puntosVida = 100;
 
     public void RestarVida(int daño)
@@ -40,6 +41,7 @@ public class PlayerStats : MonoBehaviour
         {
             _gameManager.PauseGame();
             _gameManager.Gameover();
+
         }
     }
 }

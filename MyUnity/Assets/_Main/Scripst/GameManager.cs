@@ -1,3 +1,4 @@
+using System.Xml.Serialization;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
@@ -6,6 +7,7 @@ public class GameManager : MonoBehaviour
 {
 
     [SerializeField] private GameObject _gameover;
+    [SerializeField] private GameObject _win;
 
     public void Start()
     {
@@ -31,5 +33,9 @@ public class GameManager : MonoBehaviour
     public void Gameover()
     {
         _gameover.SetActive(true);
+    }
+    public void Win()
+    {
+        _win.SetActive(true);
     }
 }

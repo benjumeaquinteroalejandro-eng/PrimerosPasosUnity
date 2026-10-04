@@ -6,6 +6,7 @@ public class MovimientoJugador : MonoBehaviour
     [SerializeField] private float _velocidadMovimiento = 5f;
     [SerializeField] private Rigidbody2D _cuerpoRigido2D;
     [SerializeField] private DetectorSuelo _detectorSuelo;
+    [SerializeField] private Animator _animator;
     [SerializeField] private SpriteRenderer _spriteRenderer;
 
     private float _directionX = 0f;
@@ -16,9 +17,11 @@ public class MovimientoJugador : MonoBehaviour
 
     private void FixedUpdate()
     {
+        _directionX = 0f;
+
         if (_detectorSuelo.estaEnSuelo)
         {
-            _directionX = 0f;
+
 
             if (Input.GetKey(KeyCode.Space))
             {
@@ -26,24 +29,34 @@ public class MovimientoJugador : MonoBehaviour
 
                 Debug.Log("Oprim� la tecla");
             }
-            if (Input.GetKey(KeyCode.D))
-            {
-                _directionX = 1f;
+        }
+        if (Input.GetKey(KeyCode.D))
+        {
+            _directionX = 1f;
 
-                _spriteRenderer.flipX = false;
+            _spriteRenderer.flipX = false;
 
-                Debug.Log("Camina");
-            }
-            if (Input.GetKey(KeyCode.A))
-            {
-                _directionX = -1f;
+            Debug.Log("Camina");
+        }
+        if (Input.GetKey(KeyCode.A))
+        {
+            _directionX = -1f;
 
-                _spriteRenderer.flipX = true;
+            _spriteRenderer.flipX = true;
 
-                Debug.Log("Reversa");
-            }
+            Debug.Log("Reversa");
         }
 
-        _cuerpoRigido2D.linearVelocity = new Vector2(_directionX * _velocidadMovimiento,_cuerpoRigido2D.linearVelocity.y);
+        _cuerpoRigido2D.linearVelocity = new Vector2(_directionX * _velocidadMovimiento, _cuerpoRigido2D.linearVelocity.y);
+        _animator.SetBool("InGround", _detectorSuelo.estaEnSuelo);
+
+        if (_directionX != 0f && _detectorSuelo.estaEnSuelo)
+        {
+            _animator.SetFloat("Run", 1f);
+        }
+        else
+        {
+            _animator.SetFloat("Run", 0f);
+        }
     }
 }
