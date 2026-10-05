@@ -6,6 +6,12 @@ public class GameManager : MonoBehaviour
 {
     [SerializeField] private GameObject _gameOver;
     [SerializeField] private GameObject _Genius;
+
+    public void Start()
+    {
+        Time.timeScale = 1f;
+    }   
+
     public void CargarEscena(int sceneID)
     {
         SceneManager.LoadScene(sceneID);
