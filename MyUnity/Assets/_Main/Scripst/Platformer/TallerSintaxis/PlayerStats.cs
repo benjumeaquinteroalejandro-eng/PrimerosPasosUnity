@@ -24,17 +24,17 @@ public class PlayerStats : MonoBehaviour
             _uiManager.ColorBarra(Color.green);
         }
 
-        else if (_puntosVida >= 100)
+        if (_puntosVida >= 100)
         {
             _puntosVida = 100;
         }
 
-        else if (_puntosVida >=40 && _puntosVida < 80)
+        if (_puntosVida >=40 && _puntosVida < 80)
         {
             _uiManager.ColorBarra(Color.yellow);
         }
 
-        else if (_puntosVida < 40)
+        if (_puntosVida < 40)
         {
             _uiManager.ColorBarra(Color.red);
         }
